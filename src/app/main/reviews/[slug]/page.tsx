@@ -1,0 +1,2 @@
+import {notFound} from "next/navigation";
+export default async function ReviewPage({params}:{params:Promise<{slug:string}>}){const {slug}=await params;if(!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug))notFound();return <main><span className="eyebrow">Review · {slug}</span><h1>Review</h1><p>Dynamische Review-Seite. Veröffentlichte Inhalte werden später aus einer validierten Datenquelle geladen.</p></main>}

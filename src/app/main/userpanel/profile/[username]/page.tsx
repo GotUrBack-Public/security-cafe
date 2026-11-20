@@ -1,0 +1,2 @@
+import {notFound} from "next/navigation";
+export default async function ProfilePage({params}:{params:Promise<{username:string}>}){const {username}=await params;if(!/^[a-zA-Z0-9_]{3,24}$/.test(username))notFound();return <main><span className="eyebrow">Profile · {username}</span><h1>User profile</h1><p>Öffentliche Profilprojektion. Private Felder benötigen serverseitige Autorisierung.</p></main>}

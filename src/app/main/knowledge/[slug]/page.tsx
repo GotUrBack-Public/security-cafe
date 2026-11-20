@@ -1,0 +1,2 @@
+import {notFound} from "next/navigation";
+export default async function ArticlePage({params}:{params:Promise<{slug:string}>}){const {slug}=await params;if(!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug))notFound();return <main><span className="eyebrow">Knowledge · {slug}</span><h1>Knowledge article</h1><p>Dynamische Wissensseite mit serverseitiger Veröffentlichungs- und Zugriffsprüfung.</p></main>}

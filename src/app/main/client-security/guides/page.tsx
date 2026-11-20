@@ -1,0 +1,1 @@
+export default function ClientSecurityGuidesPage(){return <main><span className="eyebrow">Client Security</span><h1>Guides</h1><p>Dokumentation zu Content Security Policy, sicheren Cookies, Browser-Isolation, Berechtigungen und dem sicheren Umgang mit Drittinhalten.</p></main>}

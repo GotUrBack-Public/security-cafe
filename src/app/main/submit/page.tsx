@@ -1,0 +1,1 @@
+export default function SubmitPage(){return <main><span className="eyebrow">Community</span><h1>Submit</h1><p>Einreichungen werden erst aktiviert, wenn serverseitige Validierung, Rate-Limits, Spam-Schutz und Moderation integriert sind.</p></main>}

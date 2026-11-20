@@ -1,0 +1,1 @@
+export default function KnowledgePage(){return <main><span className="eyebrow">Library</span><h1>Knowledge</h1><p>Security-Guides, Glossar, Tutorials und Lernpfade.</p></main>}

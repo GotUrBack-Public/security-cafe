@@ -1,0 +1,1 @@
+export default function UserPanelPage(){return <main><span className="eyebrow">Account</span><h1>User Panel</h1><p>Account-Dashboard vorbereitet. Anmeldung und persönliche Datenzugriffe sind noch nicht aktiviert.</p></main>}

@@ -1,0 +1,1 @@
+export default function ReviewsPage(){return <main><span className="eyebrow">Analysis</span><h1>Reviews</h1><p>Reviews werden als eigenständige Inhalte mit Slug, Status, Autor und Veröffentlichungsdatum modelliert.</p></main>}

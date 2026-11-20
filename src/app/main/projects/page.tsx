@@ -1,0 +1,1 @@
+export default function ProjectsPage(){return <main><span className="eyebrow">Build</span><h1>Projects</h1><p>Projektübersicht mit Status, Tags, Dokumentation und Community-Beiträgen.</p></main>}

@@ -1,0 +1,1 @@
+export default function LivePage(){return <main><span className="eyebrow">Community</span><h1>Live</h1><p>Live-Übersicht für GotUrBack04. Twitch-Embed und Live-Status folgen nach sicherer API-Konfiguration.</p><a href="https://www.twitch.tv/GotUrBack04" target="_blank" rel="noopener noreferrer">GotUrBack04 auf Twitch ↗</a></main>}

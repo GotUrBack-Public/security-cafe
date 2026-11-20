@@ -1,0 +1,2 @@
+import {requireUser} from "@/server/auth/guards";
+export default async function StreamsPage(){await requireUser();return <main><span className="eyebrow">Private</span><h1>My streams</h1><p>Private stream management.</p></main>}

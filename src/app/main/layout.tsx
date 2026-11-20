@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function MainLayout({children}:{children:React.ReactNode}){return <><header><nav><Link href="/"><strong>SECURITY CAFÉ</strong></Link><div><Link href="/main/live">Live</Link><Link href="/main/submit">Submit</Link><Link href="/main/reviews">Reviews</Link><Link href="/main/knowledge">Knowledge</Link><Link href="/main/projects">Projects</Link><Link href="/main/client-security">Client Security</Link><Link href="/main/userpanel">User Panel</Link></div></nav></header>{children}<footer>Security Café · Security by design</footer></>}

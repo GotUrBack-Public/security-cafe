@@ -1,0 +1,2 @@
+import {CLIENT_CHECK_CATALOG} from "@/features/client-security/catalog";
+export default function ChecksPage(){return <main><span className="eyebrow">Client Security</span><h1>Check catalog</h1><p>Ein Katalogeintrag bedeutet nicht, dass ein Scan bereits ausgeführt wurde.</p><div className="cards">{CLIENT_CHECK_CATALOG.map(c=><article className="card" key={c.id}><h2>{c.title}</h2><p>{c.description}</p><small>{c.category} · {c.execution}</small></article>)}</div></main>}
